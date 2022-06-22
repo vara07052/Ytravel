@@ -3,7 +3,16 @@
 	<App>
 		<pages>
 			<Page title="Master Page">
-				<content></content>
+				<content>
+					<Text text="Master Page content Goes Here"/>
+				</content>
+				<footer>
+					<OverflowToolbar>
+						<ToolbarSpacer/>
+						<Button icon="sap-icon://add" tooltip="Add"/>
+						<Button icon="sap-icon://delete" tooltip="Delete"/>
+					</OverflowToolbar>
+				</footer>
 			</Page>
 		</pages>
 	</App>
